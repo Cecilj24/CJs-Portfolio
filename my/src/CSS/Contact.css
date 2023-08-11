@@ -1,0 +1,15 @@
+.Contact {
+    height: 100%;
+    width: 100%;
+    background-color: navy;
+}
+
+.form-control {
+    width: 50%;
+    height: 60%;
+}
+
+.Name label {
+font-size: large;
+color: antiquewhite;
+}

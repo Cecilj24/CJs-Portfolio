@@ -1,7 +1,7 @@
 .Contact {
     height: 100%;
     width: 100%;
-    background-color: navy;
+    background-color: beige
 }
 
 .form-control {
@@ -11,5 +11,5 @@
 
 .Name label {
 font-size: large;
-color: antiquewhite;
+color: black;
 }

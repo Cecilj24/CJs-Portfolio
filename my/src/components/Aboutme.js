@@ -1,5 +1,6 @@
 import React from 'react'
 import "../CSS/Aboutme.css"
+import Portfoliocover from "../assets/Portfoliocover.jpg"
 
 
 
@@ -7,15 +8,25 @@ import "../CSS/Aboutme.css"
 function Aboutme() {
   return (
     <div className='main'>
-      <div className='intro'>
-        <h2>Hello my Name is Cecil</h2>
-        <div className='description'>
-        <p>I am a fullstack software engineer that is willing to learn and do my absolute best on any project. I am based out of Moreno Valley, CA but am always willing to relocate. My specialties are listed in my Resume tab so feel free to take a look at that. For any other inquiries, you can contact me with your name and email. My github link is also down below in the footer so feel free to take a look at that as well.</p>
+      <div className='image'>
+        <img alt='' src={Portfoliocover}></img>
+        <div className='intro'>
+          <p>Hello my name is Cecil John-Langba. I am a fullstack software engineer that is willing to learn and do my absolute best on any project. I am based out of Moreno Valley, CA but am always willing to relocate. My specialties are listed in my Resume tab so feel free to take a look at that. For any other inquiries, you can contact me with your name and email using my email icon located in the footer. My github link is also down below in the footer so feel free to take a look at that as well.</p>
         </div>
       </div>
+
     </div>
-   
+
+
+
   )
 }
 
 export default Aboutme
+
+/* <div className='intro'>
+        <h2>Hello my Name is Cecil</h2>
+        <div className='description'>
+        <p>I am a fullstack software engineer that is willing to learn and do my absolute best on any project. I am based out of Moreno Valley, CA but am always willing to relocate. My specialties are listed in my Resume tab so feel free to take a look at that. For any other inquiries, you can contact me with your name and email. My github link is also down below in the footer so feel free to take a look at that as well.</p>
+        </div>
+      </div> */
